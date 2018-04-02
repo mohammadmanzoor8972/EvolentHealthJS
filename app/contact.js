@@ -127,7 +127,7 @@ contact.prototype.createEditFormTemplate = function () {
     <input type="email" id="edit-email" name="email" placeholder="Email" required>
     <input type="number" id="edit-phone" name="phone" placeholder="Phone Number" required>
     <input type="text" id="edit-status" name="status" placeholder="Status" required>
-    <input type="submit" value="Edit" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+    <input type="submit" value="Edit" /> <a onclick="app.closeInput()" aria-label="Close">&#10006;</a>
   </form>`
 }
 
